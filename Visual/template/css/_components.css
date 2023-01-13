@@ -1673,16 +1673,16 @@
 
 /* Backgrounds */
 /* Backgrounds images */
-.bg-00 { background-image: url("../../template/img/_base/background.png"); }
-.bg-01 { background-image: url("../img/_base/img-01.jpg"); }
-.bg-02 { background-image: url("../img/_base/img-02.jpg"); }
-.bg-03 { background-image: url("../img/_base/img-03.jpg"); }
-.bg-04 { background-image: url("../img/_base/img-04.jpg"); }
-.bg-05 { background-image: url("../img/_base/img-05.jpg"); }
-.bg-06 { background-image: url("../img/_base/img-06.jpg"); }
-.bg-07 { background-image: url("../img/_base/img-07.jpg"); }
-.bg-08 { background-image: url("../img/_base/img-08.jpg"); }
-.bg-09 { background-image: url("../img/_base/img-09.jpg"); }
+.bg-00 { background-image: url("../../template/img/Base/background.png"); }
+.bg-01 { background-image: url("../img/Base/img-01.jpg"); }
+.bg-02 { background-image: url("../img/Base/img-02.jpg"); }
+.bg-03 { background-image: url("../img/Base/img-03.jpg"); }
+.bg-04 { background-image: url("../img/Base/img-04.jpg"); }
+.bg-05 { background-image: url("../img/Base/img-05.jpg"); }
+.bg-06 { background-image: url("../img/Base/img-06.jpg"); }
+.bg-07 { background-image: url("../img/Base/img-07.jpg"); }
+.bg-08 { background-image: url("../img/Base/img-08.jpg"); }
+.bg-09 { background-image: url("../img/Base/img-09.jpg"); }
 
 .bg-circles { background-image: url("../img/_base/outline-circles.png"); }
 .bg-dot-blue {
