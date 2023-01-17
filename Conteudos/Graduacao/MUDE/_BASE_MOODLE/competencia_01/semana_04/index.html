@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>UNISUAM - MUDE | Material de Estudo</title>
+
+	<!-- Icons & Fonts -->
+	<link rel="icon" href="../../../../../../Visual/template/img/Icon/iconGuia.png" type="image/x-icon">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=latin-ext">
+	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="../../../../../../Visual/template/css/vendor/materialize.custom.css">
+	<link rel="stylesheet" href="../../../../../../Visual/template/css/vendor/materialize-grid.custom.css">
+	<link rel="stylesheet" href="../../../../../../Visual/template/css/vendor/materialize-mq.custom.css">
+	<!-- UIkit -->
+	<link rel="stylesheet" href="../../../../../../Visual/template/css/vendor/uikit.min.css">
+	<!-- Anicollection (animações) -->
+	<link rel="stylesheet" href="../../../../../../Visual/template/css/vendor/anicollection.min.css">
+	<!-- Media Player -->
+    <link rel="stylesheet" href="quiz/css/quiz.css">
+    <link rel="stylesheet" href="../../../../../../Visual/template/css/vendor/plyr.css">
+	<link rel="stylesheet" href="../../../../../../Visual/template/css/_colors.css">
+	<link rel="stylesheet" href="../../../../../../Visual/template/css/_components.css">
+	<link rel="stylesheet" href="../../../../../../Visual/template/css/_helper.css">
+	<link rel="stylesheet" href="../../../../../../Visual/template/css/main.css">
+	<link rel="stylesheet" href="../../../../../../Visual/template/css/theme.grd.css">
+	<link rel="stylesheet" href="../../../../../../Visual/template/css/custom.css">
+	
+	<!--Game-->
+	<link rel="stylesheet" href="../../../../../../Visual/template/recursos-game/css/custom.game.css">
+	<link rel="stylesheet" href="game/custom.game.css">
+
+</head>
+
+<body id="uni" data-template="grd" class="nav-floating scroll-nav mathjs">
+	<!-- NAVEGAÇÂO FLUTUANTE -->
+	<div id="nav-fab" class="fixed-action-btn direction-bottom nav-fab go g-blue-dark-horizontal transition">
+		
+        <a class="nav-fab-trigger btn btn-floating click-to-toggle br-circle hover">
+			<i class="menu icon small txt-white mdi mdi-menu"></i>
+			<i class="close icon small txt-white mdi mdi-close"></i>
+		</a>
+
+		<ul id="bullet-menu" class="nav-menu" uk-scrollspy-nav>
+			
+            <li class="hidden"><a href="#cover" uk-scroll> Início</a></li>
+			            
+            <li class="nav-link">
+				<a title="Videoaula" href="#cs1" uk-scroll>
+					<span class="btn-floating">
+						<div class="fab-title">
+							<span>Livro</span>
+						</div>
+					</span>
+				</a>
+			</li>			            
+            <li class="nav-link">
+				<a title="Videoaula" href="#cs2" uk-scroll>
+					<span class="btn-floating">
+						<div class="fab-title">
+							<span>Artigo</span>
+						</div>
+					</span>
+				</a>
+			</li>
+            <li class="nav-link">
+				<a title="Conteúdo" href="#cs3" uk-scroll>
+					<span class="btn-floating">
+						<div class="fab-title">
+							<span>Vídeo</span>
+						</div>
+					</span>
+				</a>
+			</li>
+			<li class="nav-link">
+				<a title="Handout" href="#cs4" uk-scroll>
+					<span class="btn-floating">
+						<div class="fab-title">
+							<span>Podcast</span>
+						</div>
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+      
+
+	<!--CAPA-->
+	<div id="cover" class="section">
+		<div class="cover-img" data-src="../../../../../../Visual/template/img/Home/background.png" uk-img></div>
+		<!--<div class="cover-overlay"></div>-->
+
+		<div class="cover-title m-txt-blueDark">
+			<h1>
+				<div class="title-text">
+					<span><strong>Competência 1: </strong>Nome Competência.</span>
+				</div>
+				<div class="title-week">
+					<span><strong>Semana 4</strong></span>
+				</div>
+			</h1>
+		</div>
+
+		<a class="scroll-arrow" href="#main-content" uk-scroll>
+			<i class="icon bounce animated infinite mdi mdi-chevron-down"></i>
+		</a>
+	</div>
+
+	<div id="main-content">
+		
+        <!-- Livro -->
+		<div id="cs1" data-cc="on" class="videoaula section valign-wrapper bg-00 bg-center bg-cover bg-fixed ">
+			<div class="container">
+				<div class="section-title  m-txt-blueDark">
+					<h2 class="title-text">
+						<span>Livro</span>
+					</h2>
+				</div>
+
+				<!--CONTEÚDO-->
+
+				<div class="row">
+					
+					<!-- <div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o livro <strong>Nome do Livro</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoLivro" target="_blank" class="btn-large txt-white txt-bold">Acessar Livro</a>
+						</div>
+					</div>
+					<div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o livro <strong>Nome do Livro</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoLivro" target="_blank" class="btn-large txt-white txt-bold">Acessar Livro</a>
+						</div>
+					</div>
+					<div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o livro <strong>Nome do Livro</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoLivro" target="_blank" class="btn-large txt-white txt-bold">Acessar Livro</a>
+						</div>
+					</div> -->
+
+				</div>				
+			</div>
+		</div>
+		
+        <!-- Artigo -->
+		<div id="cs2" data-cc="on" class="videoaula section valign-wrapper bg-00 bg-center bg-cover bg-fixed ">
+			<div class="container">
+				<div class="section-title  m-txt-blueDark">
+					<h2 class="title-text">
+						<span>Artigo</span>
+					</h2>
+				</div>
+
+				<!--CONTEÚDO-->
+
+				<div class="row">
+					
+					<!-- <div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o artigo <strong>Nome do Artigo</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoArtigo" target="_blank" class="btn-large txt-white txt-bold">Acessar Artigo</a>
+						</div>
+					</div>
+					<div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o artigo <strong>Nome do Artigo</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoArtigo" target="_blank" class="btn-large txt-white txt-bold">Acessar Artigo</a>
+						</div>
+					</div>
+					<div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o artigo <strong>Nome do Artigo</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoArtigo" target="_blank" class="btn-large txt-white txt-bold">Acessar Artigo</a>
+						</div>
+					</div> -->
+
+				</div>				
+			</div>
+		</div>
+        
+        <!--Vídeo-->
+		<div id="cs3" data-cc="on" class="teoria-na-pratica section bg-00 bg-center bg-cover bg-fixed">
+			<div class="container">
+				<div class="section-title">
+					<h2 class="title-text  m-txt-blueDark">
+						<span>Vídeo</span>
+					</h2>
+				</div>
+
+				<!--CONTEÚDO-->
+
+				<div class="row">
+					
+					<!-- <div class="col s12 l8 center">
+						<h4 class="txt-center">Assista o vídeo <strong>Nome do Vídeo</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<iframe src="https://www.youtube.com/embed/" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen uk-responsive></iframe>
+						</div>
+					</div>
+					<div class="col s12 l8 center">
+						<h4 class="txt-center">Assista o vídeo <strong>Nome do Vídeo</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<iframe src="https://www.youtube.com/embed/" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen uk-responsive></iframe>
+						</div>
+					</div>
+					<div class="col s12 l8 center">
+						<h4 class="txt-center">Assista o vídeo <strong>Nome do Vídeo</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<iframe src="https://www.youtube.com/embed/" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen uk-responsive></iframe>
+						</div>
+					</div> -->			
+					
+
+					<!-- <div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o vídeo <strong>Nome do Vídeo</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoVídeo" target="_blank" class="btn-large txt-white txt-bold">Acessar Vídeo</a>
+						</div>
+					</div>
+					<div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o vídeo <strong>Nome do Vídeo</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoVídeo" target="_blank" class="btn-large txt-white txt-bold">Acessar Vídeo</a>
+						</div>
+					</div>
+					<div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o vídeo <strong>Nome do Vídeo</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoVídeo" target="_blank" class="btn-large txt-white txt-bold">Acessar Vídeo</a>
+						</div>
+					</div> -->
+
+				</div>
+                
+			</div>
+		</div>
+        
+        <!--Podcast-->
+		<div id="cs4" data-cc="on" class="teoria-na-pratica section bg-00 bg-center bg-cover bg-fixed">
+			<div class="container">
+				<div class="section-title">
+					<h2 class="title-text  m-txt-blueDark">
+						<span>Podcast</span>
+					</h2>
+				</div>
+
+				<!--CONTEÚDO-->
+
+				<div class="row">
+
+					<!-- <div class="col s12 l8 center">
+						<h4 class="txt-center">Ouça o podcast <strong>Nome do Podcast</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<audio class="js-player" controls>
+								<source src="LinkDoPodcast" type="LinkDoPodcast" />
+							</audio>
+						</div>
+					</div>
+					<div class="col s12 l8 center">
+						<h4 class="txt-center">Ouça o podcast <strong>Nome do Podcast</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<audio class="js-player" controls>
+								<source src="LinkDoPodcast" type="LinkDoPodcast" />
+							</audio>
+						</div>
+					</div>
+					<div class="col s12 l8 center">
+						<h4 class="txt-center">Ouça o podcast <strong>Nome do Podcast</strong> desta semana.</h4>
+						<div class="col s12 center txt-center m9">
+							<audio class="js-player" controls>
+								<source src="LinkDoPodcast" type="LinkDoPodcast" />
+							</audio>
+						</div>
+					</div>-->
+					
+
+					<!-- <div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o podcast <strong>Nome do Podcast</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoPodcast" target="_blank" class="btn-large txt-white txt-bold">Acessar Podcast</a>
+						</div>
+					</div>
+					<div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o podcast <strong>Nome do Podcast</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoPodcast" target="_blank" class="btn-large txt-white txt-bold">Acessar Podcast</a>
+						</div>
+					</div>
+					<div class="col s12 m9 l9 center">
+						<h4 class="txt-center">Acesse o podcast <strong>Nome do Podcast</strong> desta semana.</h4>
+						<div class="col s12 center txt-center mg-large-bottom">
+							<a href="LinkDoPodcast" target="_blank" class="btn-large txt-white txt-bold">Acessar Podcast</a>
+						</div>
+					</div> -->
+
+				</div>
+                
+			</div>
+		</div>		
+	</div>
+
+	<!-- JS -->
+	<script src="../../../../../../Visual/template/js/vendor/jquery-3.4.1.min.js"></script>
+	<script src="../../../../../../Visual/template/js/vendor/jquery-migrate-3.1.0.min.js"></script>
+	<!-- Materialize -->
+	<script src="../../../../../../Visual/template/js/vendor/materialize.min.js"></script>
+	<!-- UIkit -->
+	<script src="../../../../../../Visual/template/js/vendor/uikit.min.js"></script>
+	<!-- Media PLayer (plyr) -->
+	<script src="../../../../../../Visual/template/js/vendor/plyr.polyfilled-3.5.6.min.js"></script>
+
+	<!-- Cover Scroll Trigger -->
+	<script src="../../../../../../Visual/template/js/vendor/jquery.scroll-trigger.min.js"></script>
+	<!-- Scrollify (navegação por scroll) -->
+	<script src="../../../../../../Visual/template/js/vendor/jquery.scrollify.js"></script>
+	
+	<!-- Games -->
+	<script src="../../../../../../Visual/template/recursos-game/js/game.helper.js"></script>
+	<!-- - Memory Game -->
+	<script src="../../../../../../Visual/template/recursos-game/js/game.memory-game.js"></script>
+	
+	<!-- - Word Search -->
+	<script type="text/javascript" src="../../../../../../Visual/template/recursos-game/js/wordfind.js"></script>
+	<script src="../../../../../../Visual/template/recursos-game/js/game.word-search.js"></script>
+	
+
+	<script src="../../../../../../Visual/template/js/activities.js"></script>
+	<script src="../../../../../../Visual/template/js/main.js"></script>
+    
+    
+</body>
+</html>
